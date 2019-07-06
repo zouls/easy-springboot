@@ -1,0 +1,11 @@
+spring:
+  data:
+    cassandra:
+      keyspace-library:
+        compression: SNAPPY
+        contact-points: 127.0.0.1,127.0.0.2,127.0.0.3
+        keyspace-name: library
+      keyspace-gps:
+        compression: SNAPPY
+        contact-points: 127.0.0.4,127.0.0.5,127.0.0.6
+        keyspace-name: gps
