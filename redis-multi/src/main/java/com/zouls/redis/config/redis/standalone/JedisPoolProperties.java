@@ -1,4 +1,4 @@
-package com.zouls.redismulti.config.redis.standalone;
+package com.zouls.redis.config.redis.standalone;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

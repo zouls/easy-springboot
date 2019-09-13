@@ -1,13 +1,13 @@
-package com.zouls.easyspringboot;
+package com.zouls.redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EasySpringbootApplication {
+public class RedisMultiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EasySpringbootApplication.class, args);
+        SpringApplication.run(RedisMultiApplication.class, args);
     }
 
 }

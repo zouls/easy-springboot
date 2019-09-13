@@ -1,4 +1,4 @@
-package com.zouls.redismulti.config.redis.cluster;
+package com.zouls.redis.config.redis.cluster;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

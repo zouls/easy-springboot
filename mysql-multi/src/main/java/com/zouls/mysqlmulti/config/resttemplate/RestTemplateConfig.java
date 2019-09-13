@@ -15,19 +15,6 @@ import java.util.concurrent.TimeUnit;
 @Configuration
 public class RestTemplateConfig {
 
-//    @Bean
-//    public RestTemplate restTemplate(ClientHttpRequestFactory factory){
-//        return new RestTemplate(factory);
-//    }
-//
-//    @Bean
-//    public ClientHttpRequestFactory simpleClientHttpRequestFactory(){
-//        SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
-//        factory.setReadTimeout(10000);
-//        factory.setConnectTimeout(10000);
-//        return factory;
-//    }
-
     @Bean
     public HttpComponentsClientHttpRequestFactory requestFactory() {
         PoolingHttpClientConnectionManager connectionManager =

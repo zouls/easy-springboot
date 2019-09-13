@@ -1,4 +1,4 @@
-package com.zouls.redismulti.config.redis.cluster;
+package com.zouls.redis.config.redis.cluster;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
